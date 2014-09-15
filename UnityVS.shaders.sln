@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.0
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.shaders.CSharp", "UnityVS.shaders.CSharp.csproj", "{29786380-5F50-7E19-B5EE-703C3995AE7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.shaders.CSharp.Editor", "UnityVS.shaders.CSharp.Editor.csproj", "{054FAD13-1AFB-F928-F2C1-04C2456E2074}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29786380-5F50-7E19-B5EE-703C3995AE7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29786380-5F50-7E19-B5EE-703C3995AE7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29786380-5F50-7E19-B5EE-703C3995AE7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29786380-5F50-7E19-B5EE-703C3995AE7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{054FAD13-1AFB-F928-F2C1-04C2456E2074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{054FAD13-1AFB-F928-F2C1-04C2456E2074}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{054FAD13-1AFB-F928-F2C1-04C2456E2074}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{054FAD13-1AFB-F928-F2C1-04C2456E2074}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
