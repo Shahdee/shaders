@@ -1,0 +1,17 @@
+/Obj
+/Library
+/Temp
+/Assets/StreamingAssets/*.unity3d
+/Assets/StreamingAssets/*.unity3d.meta
+/Assets/UnityVS
+
+build
+*.pidb
+*.csproj
+*.sln
+*.userprefs
+*.unityproj
+*.suo
+*.svd
+*.user
+*.booproj
