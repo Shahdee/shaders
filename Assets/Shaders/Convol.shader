@@ -31,8 +31,15 @@
 		};
 
 		void surf (Input IN, inout SurfaceOutput o) {
-			half4 c = tex2D (_MainTex, IN.uv_MainTex);
-			o.Albedo = c.rgb;
+			
+			half4 c = tex2D(_AOMap, IN.uv_AOMap);
+			float3 normal = UnpackNormal(tex2D(_BumpMap, IN.uv_AOMap)).rgb;
+			o.Normal = normal;
+
+			float3 diffVal = texCUBE(_CubeMap, WorldNormalVector(IN, o.Normal)).rgb;
+			o.Albedo = (c.rgb * diffVal) * _Tint;
+			o.Specular =  _SpecWidth;
+			o.Gloss = _SpecIntensity * c.rgb;
 			o.Alpha = c.a;
 		}
 
