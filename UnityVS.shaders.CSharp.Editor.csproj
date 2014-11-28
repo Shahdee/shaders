@@ -97,6 +97,7 @@
     <None Include="Assets\Shaders\Transparent.shader" />
     <None Include="Assets\Shaders\VertexAnim.shader" />
     <None Include="Assets\Shaders\VertexColor.shader" />
+    <None Include="Assets\Shaders\VertexTerrain.shader" />
     <None Include="Assets\Shaders\VPLM.shader" />
     <None Include="Assets\Skin Shaders\SkinBumped.shader" />
     <None Include="Assets\Skin Shaders\SkinBumpedSpecular.shader" />

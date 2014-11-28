@@ -4,6 +4,8 @@
 /Assets/StreamingAssets/*.unity3d
 /Assets/StreamingAssets/*.unity3d.meta
 /Assets/UnityVS
+/ProjectSettings/ProjectSettings.asset
+/ProjectSettings/QualitySettings.asset
 
 build
 *.pidb

@@ -3,7 +3,7 @@
 		_MainTex ("Base (RGB)", 2D) = "white" {}
 		_SecTex("Sec (RGB)", 2D) = "white"{}
 		_HeightMap("Heightmap (RGB)", 2D) = "white"{}
-		_Val("Value", Range(1,20)) = 12
+		_Value("Value", Range(1,20)) = 12
 	}
 	SubShader {
 		Tags { "RenderType"="Opaque" }
