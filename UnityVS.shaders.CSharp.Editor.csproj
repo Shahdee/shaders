@@ -72,6 +72,7 @@
     <Compile Include="Assets\Editor\CubeMap.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Shaders\8OptimizeShader.shader" />
     <None Include="Assets\Shaders\Anisotropic.shader" />
     <None Include="Assets\Shaders\BasicDiffuse.shader" />
     <None Include="Assets\Shaders\Cloth.shader" />
